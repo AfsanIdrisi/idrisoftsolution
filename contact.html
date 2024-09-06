@@ -1,8 +1,8 @@
-<?php
+<!-- <?php
 // echo '<script>';
 // echo 'alert("Php working")';
 // echo '</script>'
-?>
+?> -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -74,26 +74,27 @@
         <ul id="Sidebar">
             <!-- <i class="fa-solid fa-bars" style="color: #ffffff;"></i> -->
             <div>
-                <li><img id="Ham"src="img/Logos/ham.png" alt=""></li>
+                <li><img src="img/Logos/logo.png" alt=""></li>
             </div>
             <div>
-    
-                <li><a href="contact.php">Contact Us</a></li>
-                <li><img src="img/Logos/logo.png" alt=""></li>
+                
+                <!-- <li><a href="contact.php">Contact Us</a></li> -->
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><img id="Ham" src="img/Logos/ham.png" alt=""></li>
             </div>
         </ul>
         <ul id="navbar" class="">
-            <li><img id="Cross"src="img/Logos/cross.png" alt=""></li>       
             <li><a href="index.html">Home</a></li>        
             <li><a href="#" onclick="ShowService()" id="serviceButton"><label id="serviceLabel" for="Check">Services</label></a></li>
             <!-- <li><a href="#">Offers</a></li> -->
             <li><img src="img/logos/logo.png" id="Service"  alt=""></li>
             <!-- <li><a href="#">Templates</a></li> -->
             <li><a href="about.html">About Us</a></li>
-            <li><a href="contact.php" class="active">Contact Us</a></li>
+            <!-- <li><a href="contact.php" class="active">Contact Us</a></li> -->
+            <li><a href="contact.html" class="active">Contact Us</a></li>
         </ul>
     </section>
-    <?php
+    <!-- <?php
         // Creating Connection object
         if($_SERVER["REQUEST_METHOD"]=="POST"){
             $server="localhost";
@@ -117,7 +118,7 @@
                 header("location: success.html");
             }
         }
-    ?>
+    ?> -->
     <section id="ContactUsPage">
             <h1>Contact Us</h1>
             <div class="ItemContainer">

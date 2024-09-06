@@ -9,14 +9,19 @@ let input = document.querySelectorAll(".input");
 let success = document.querySelector("#success");
 ham.addEventListener("click", function (event) {
     event.stopPropagation();
-    nav.style.left = 0 + "px";
-    document.addEventListener("click",function (){
+
+    if(nav.style.left!="0px"){
+        nav.style.left = 0 + "px";
+        document.addEventListener("click",function (){
+            nav.style.left = -600 + "px";
+        })
+    }
+    else{
         nav.style.left = -600 + "px";
-    })
+    }
 });
-cross.addEventListener("click", function () {
-    nav.style.left = -600 + "px";
-})
+// cross.addEventListener("click", function () {
+// })
 
 // Srollbar animation
 const Observer = new IntersectionObserver((entries) => {

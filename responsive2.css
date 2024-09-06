@@ -15,7 +15,7 @@
         width: 80%;
     }
     .plan{
-        width: 100%;
+        width: 90%;
     }
 }
 
@@ -69,7 +69,7 @@
         align-items: center;
     }
     #sliderSection div img {
-        width: 60rem;
+        /* width: 60rem; */
     }
 }
 
@@ -117,13 +117,13 @@
         width: 50%;
         position: absolute;
         left: -500px;
-        margin-top: 10.3rem;
+        margin-top: 10.1rem;
         height: 100vh;
         justify-content: flex-start;
         align-items: flex-start;
         padding: 0rem 5rem;
     }
-    #navbar li:nth-child(4){
+    #navbar li:nth-child(3){
         display: none;
 
     }
@@ -138,7 +138,7 @@
         
     }
     #sliderSection div img {
-        width: 40rem;
+        /* width: 40rem; */
 
     }
     #planSection h1 span{
@@ -175,7 +175,7 @@
     #navbar {
         margin-top: 7.8rem;
     }
-    #Sidebar div:nth-child(2) img {
+    #Sidebar div:nth-child(1) img {
         width: 120px;
         height: 80px;
         margin-left: 0px;
@@ -207,7 +207,7 @@
     /* #TemplateBody{
         width: 130%;
     } */
-    #Sidebar div:nth-child(2) img {
+    #Sidebar div:nth-child(1) img {
         width: 80px;
         height: auto;
     }
@@ -219,7 +219,7 @@
         width: 100%;
     }
     #sliderSection div img {
-        width: 30rem;
+        /* width: 30rem; */
     }
 }
 @media (max-width:458px) {
@@ -245,7 +245,7 @@
         flex-direction: column;
     }
     #sliderSection div img {
-        width: 25rem;
+        /* width: 25rem; */
     }
 }
 @media (max-width:349px) {
