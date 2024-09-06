@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idrisoft Solutions</title>
+    <style>
+        html{
+            font-size: 10px;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Oswald', sans-serif;
+        }
+        h1{
+            font-size: 3rem;
+
+        }
+        h3{
+            font-size: 1.6rem;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        #container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: blueviolet;
+            width: 80rem;
+            height: 40rem;
+            border-radius: 20px;
+            justify-content: center;
+            transition: all .5s ease-in-out;
+            animation: containerAnimation 2s ease-in-out infinite;
+        }
+        #container:hover{
+            transform: scale(1.05);
+        }
+        i{
+            font-size: 10rem;
+            color: white;
+        }
+        i,h1,h3,a{
+            margin: .5rem 0rem;
+            color: white;
+        }
+        a{
+            text-decoration: none;
+            font-size: 1.4rem;
+            border: 1px solid white;
+            padding: .7rem 1.2rem;
+            font-weight: 600;
+            transition: all .5s ease-in-out;
+        }
+
+        a:hover{
+            border: 8px solid royalblue;
+            background-color: white;
+            color: blueviolet;
+        }
+
+        @keyframes containerAnimation {
+            0%{
+                transform: translateX(0px);
+                /* transform: translateX(0px);
+                transform: translateX(50px); */
+            }
+            20%{
+                transform: translateX(-50px);
+                /* transform: translateX(0px); */
+            }
+            40%{
+                transform: translateX(50px);
+            }
+            60%{
+                transform: translateX(0px);
+            }
+            80%{
+                transform:translateY(-10px)
+            }
+            100%{
+                transform: translateY(0px);
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <i class="fa-regular fa-circle-check"></i>
+        <h1>Query Stored successfully</h1>
+        <h3>Will Get Back to you soon on mail</h3>
+        <h3>Have A Very Great Day!!</h3>
+        <a href="index.html">Go To Home Page</a>
+    </section>
+<script src="https://kit.fontawesome.com/15b3fa202a.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

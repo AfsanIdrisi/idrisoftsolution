@@ -1,0 +1,270 @@
+@media (max-width:1416px) {
+    .AboutSectionBg img {
+        width: 56rem;
+    }
+}
+@media (max-width:1236px) {
+    .AboutSectionBg img {
+        width: 46rem;
+    }
+}
+@media (max-width:1168px) {
+    .planContainer {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .plan{
+        width: 100%;
+    }
+}
+
+
+@media (max-width:1062px) {
+    .AboutUsChild {
+        flex-direction: column;
+    }
+    .AboutSectionContent {
+        width: 100%;
+    }
+    .AboutSectionBg{
+        margin-top:30px;
+        width: 100%;
+    }
+
+    .AboutSectionBg img{
+        width: 100%;
+    }
+}
+
+@media (max-width:1114px) {
+    #HomePageSection .SectionBox {
+        flex-direction: column;
+        align-items: center;
+        background-color: transparent;
+    }   
+    .Img{
+        transform: none;
+    }
+    .Content{
+        transform: none;
+    }
+    #FooterSection{
+        opacity: 1;
+    }
+    #FooterSection:hover{
+        opacity: none;
+    }
+    #Template2Section div img {
+        width: 20%;
+    }
+
+    #ContactUsPage .ItemContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .ContactItem {
+        width: 100%;
+        padding: 2rem;
+        align-items: center;
+    }
+    #sliderSection div img {
+        width: 60rem;
+    }
+}
+
+@media (max-width:979px) {
+    #FooterSection {    
+        flex-direction: column;
+    }
+    .FSectionBox{
+        margin: 1.2rem 0rem;
+    }
+    #MainBanner {
+        height: 18.2rem;
+    }
+    .RImg {
+        position: relative;
+        right: 100px;
+        height: 16rem;
+    }
+    .LImg {
+        position: relative;
+        left: 100px;
+        height: 16rem;
+    }
+    #HeroSection div::before {
+        height: 54%;
+
+    }
+    #HeroSection div h1 {
+        font-size: 8rem;
+    }
+    #HeroSection div p {
+        font-size: 5rem;
+    }
+    
+}
+
+@media (max-width:883px) {
+    #Sidebar{
+        display: flex;
+        z-index: 3;
+    }
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        position: absolute;
+        left: -500px;
+        margin-top: 10.3rem;
+        height: 100vh;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 0rem 5rem;
+    }
+    #navbar li:nth-child(4){
+        display: none;
+
+    }
+    #navbar li:nth-child(1){
+        display: block;
+    }
+    #navbar li{
+        margin: 2rem 0rem;
+    }
+    .ServiceSection{
+        display: none;
+        
+    }
+    #sliderSection div img {
+        width: 40rem;
+
+    }
+    #planSection h1 span{
+        display: block;
+    }
+}
+
+@media (max-width:620px) {
+    .DetailBox {
+        width: 170px;
+        height: 120px;
+    }
+    .DetailBox {
+        width: 214px;
+        height: 187px;
+    }
+}
+
+@media (max-width:580px) {
+    html{
+        font-size: 8px;
+    }
+    #HeroSection div::before {
+        height: 45%;
+    }
+    #Sidebar div:nth-child(1) img {
+        height: 40px;
+        width: 40px;
+    }
+    #navbar li:nth-child(1) img {
+        height: 25px;
+        width: 25px;
+    }
+    #navbar {
+        margin-top: 7.8rem;
+    }
+    #Sidebar div:nth-child(2) img {
+        width: 120px;
+        height: 80px;
+        margin-left: 0px;
+    }
+    #HeroSection div h1 {
+        font-size: 6rem;
+    }
+    #HeroSection div p {
+        font-size: 4rem;
+    }
+    #Template2Section {
+        padding: 5rem 0rem;
+    }
+    .SectionBox .Img{
+        display: flex;
+        justify-content: center;
+    }
+    .SectionBox .Img img{
+        width: 100%;
+    }
+    
+    #HomePageSection .SectionBox {
+        padding: 20px 20px;
+        margin: 0px;
+    }
+    .Img, .Content {
+        margin: 0px 0px;
+    }
+    /* #TemplateBody{
+        width: 130%;
+    } */
+    #Sidebar div:nth-child(2) img {
+        width: 80px;
+        height: auto;
+    }
+    #serviceSection {
+        flex-direction: column;
+        align-items: center; 
+    }
+    .serviceSectionBox {
+        width: 100%;
+    }
+    #sliderSection div img {
+        width: 30rem;
+    }
+}
+@media (max-width:458px) {
+    #navbar li a {
+        font-size: 1.5rem;
+    } 
+    #Sidebar li a {
+        font-size: 1.5rem;
+    }
+    #HeroSection div h1 {
+        font-size: 5rem;
+    }
+    #HeroSection div p {
+        font-size: 3rem;
+    }
+    #HeroSection div::before {
+        height: 40%;
+    }
+    .ContactDetail1 {
+        flex-direction: column;
+    }
+    .ContactDetail2 {
+        flex-direction: column;
+    }
+    #sliderSection div img {
+        width: 25rem;
+    }
+}
+@media (max-width:349px) {
+    html{
+        font-size: 6px;
+    }
+    #HeroSection div::before{
+        width: 15px;
+    }
+    .Content {
+        padding: 20px 20px;
+    } 
+    #HeroSection div::before {
+        height: 35%;
+    }
+    #Sidebar {
+        padding: 10px 20px;
+    }
+    #navbar {
+        margin-top: 10.7rem;
+    }
+}
