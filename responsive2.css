@@ -173,7 +173,7 @@
         width: 25px;
     }
     #navbar {
-        margin-top: 7.8rem;
+        margin-top: 11.6rem;
     }
     #Sidebar div:nth-child(1) img {
         width: 120px;
@@ -208,7 +208,7 @@
         width: 130%;
     } */
     #Sidebar div:nth-child(1) img {
-        width: 80px;
+        width: 120px;
         height: auto;
     }
     #serviceSection {
