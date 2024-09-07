@@ -392,7 +392,6 @@ font-family: 'Roboto Condensed', sans-serif;
     height: 30px;
 }
 .plan:hover{
-    transform: rotate3d(71,20,11,9deg);
 }
 #planContent{
     text-align: center;
